@@ -1,8 +1,4 @@
 /* Color custom properties */
-.header {
-  background-color: #000 !important
-}
-
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
