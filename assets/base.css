@@ -2181,6 +2181,7 @@ input[type='checkbox'] {
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
+  display: none !important;
   z-index: 4;
 }
 
