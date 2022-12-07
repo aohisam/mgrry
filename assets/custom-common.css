@@ -1,3 +1,13 @@
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
+    body.gradient {
+        width: 750px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
+
+
+#shopify-section-template--17138696225089__image_banner {
+    height: 100vh;
 }
