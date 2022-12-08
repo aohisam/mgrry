@@ -123,6 +123,10 @@ h2.banner__heading.h2 span {
     line-height: 12px;
 }
 
+.rich-text__text.rte em {
+    opacity: 0;
+}
+
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
