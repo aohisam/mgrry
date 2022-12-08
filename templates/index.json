@@ -146,8 +146,9 @@
         },
         "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "7色に光るLED",
             "text_style": "body"
           }
         },
@@ -184,6 +185,50 @@
         "show_text_below": true
       }
     },
+    "3b9f9042-54de-4865-a0eb-5736e209adb7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-0",
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-1",
+        "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "4a1816f8-8f8a-4de5-a4f1-6d77bd195f32": {
       "type": "image-banner",
       "blocks": {
@@ -197,6 +242,7 @@
         },
         "template--17138762744129__4a1816f8-8f8a-4de5-a4f1-6d77bd195f32-167049512831b744af-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -235,6 +281,50 @@
         "show_text_below": true
       }
     },
+    "5c704c56-e947-4f19-a97b-053db3d802bf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-0",
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-1",
+        "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e00aa805-b52b-4c3c-9adf-ad56480c77fb": {
       "type": "image-banner",
       "blocks": {
@@ -248,6 +338,7 @@
         },
         "template--17138762744129__e00aa805-b52b-4c3c-9adf-ad56480c77fb-167049512831b744af-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -286,6 +377,50 @@
         "show_text_below": true
       }
     },
+    "4bb7a3e4-8039-4993-a0d1-e14ed5947782": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-0",
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-1",
+        "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -313,8 +448,11 @@
     "rich_text",
     "baad6f29-91fa-4792-aaac-fe33b2dd494d",
     "060e8116-cc5c-42c0-9418-18ccb41109a5",
+    "3b9f9042-54de-4865-a0eb-5736e209adb7",
     "4a1816f8-8f8a-4de5-a4f1-6d77bd195f32",
+    "5c704c56-e947-4f19-a97b-053db3d802bf",
     "e00aa805-b52b-4c3c-9adf-ad56480c77fb",
+    "4bb7a3e4-8039-4993-a0d1-e14ed5947782",
     "video",
     "7231321a-5399-432b-b514-63143d1ff076"
   ]
