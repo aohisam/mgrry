@@ -5,10 +5,9 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "scroll",
+            "heading_size": "h2"
           }
         },
         "text": {
