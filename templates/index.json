@@ -537,6 +537,7 @@
     "92715a00-ef0d-4094-9e89-500f021ceb00": {
       "type": "featured-collection",
       "settings": {
+        "featured_collection_name": "shisha_featured_collection",
         "title": "FLAVOR",
         "heading_size": "h1",
         "description": "",
