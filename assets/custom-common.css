@@ -90,10 +90,8 @@ h2.banner__heading.h2 span {
     left: -25px;
     top: -42px;
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
-    /* 背景画像を文字でマスクする */
     background-clip: text;
     -webkit-background-clip: text;
-    /* 文字色を透明にできればよく color: transparent でも color: rgba(0, 0, 0, 0) でも可 */
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
     animation: rainbow 4s linear infinite;
@@ -109,6 +107,17 @@ h2.banner__heading.h2 span {
     animation: pathmove 1.4s ease-in-out infinite;
 }
 
+
+/**richtext**/
+.rich-text__text p a {
+    pointer-events: none;
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 4s linear infinite;
+}
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
