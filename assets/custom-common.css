@@ -151,7 +151,7 @@ span.header__active-menu-item {
 /**********************/
 
 
-/**shisha-detail sections**/
+/**shisha-detail img sections**/
 .shisha-detail .banner__media.media {
     width: 30%;
     height: 10rem !important;
@@ -170,6 +170,14 @@ span.header__active-menu-item {
 }
 
 /**************************/
+
+
+/**shisha-detail rich-text sections**/
+.shisha_detail_text {
+    margin-top: -50px;
+}
+
+/*************************/
 
 @media screen and (min-width: 750px) {
     body.gradient {
