@@ -1,12 +1,48 @@
+.banner__media.media,
+.banner__content {
+    height: 100vh;
+}
+
+header.header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.sticky-header {
+    height: 100vh;
+    position: relative;
+}
+
+.header-wrapper .header__heading {
+    position: absolute;
+    width: 100%;
+    top: 295px;
+}
+
+header .header__inline-menu {
+    display: block;
+}
+
+.header-wrapper .header__heading img {
+    width: 60%;
+    height: auto;
+    max-width: none;
+}
+
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
+    .header-wrapper .header__heading {
+        text-align: center;
+    }
 
-.banner__media.media, .banner__content {
-    height: 100vh;
+    .header-wrapper .header__heading img {
+        width: 40%;
+    }
 }
