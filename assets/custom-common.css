@@ -118,6 +118,11 @@ h2.banner__heading.h2 span {
     -webkit-text-fill-color: transparent;
     animation: rainbow 4s linear infinite;
 }
+
+.rich-text__text.rte {
+    line-height: 12px;
+}
+
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
