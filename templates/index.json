@@ -153,6 +153,56 @@
         "feed_width": 100,
         "html_area": ""
       }
+    },
+    "060e8116-cc5c-42c0-9418-18ccb41109a5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-0",
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-1",
+        "template--17138762744129__060e8116-cc5c-42c0-9418-18ccb41109a5-167049512831b744af-2"
+      ],
+      "settings": {
+        "img_banner_name": "shisha-detail",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -160,6 +210,7 @@
     "rich_text",
     "baad6f29-91fa-4792-aaac-fe33b2dd494d",
     "video",
-    "7231321a-5399-432b-b514-63143d1ff076"
+    "7231321a-5399-432b-b514-63143d1ff076",
+    "060e8116-cc5c-42c0-9418-18ccb41109a5"
   ]
 }
