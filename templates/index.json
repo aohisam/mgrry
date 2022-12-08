@@ -171,6 +171,7 @@
       ],
       "settings": {
         "img_banner_name": "shisha-detail",
+        "image": "shopify:\/\/shop_images\/shisha-detail-1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -221,6 +222,7 @@
       ],
       "settings": {
         "img_banner_name": "shisha-detail",
+        "image": "shopify:\/\/shop_images\/shiha-detail-2.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -271,6 +273,7 @@
       ],
       "settings": {
         "img_banner_name": "shisha-detail",
+        "image": "shopify:\/\/shop_images\/shisha-detail-3.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
