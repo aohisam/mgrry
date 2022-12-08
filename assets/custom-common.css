@@ -1,3 +1,9 @@
+@keyframes rainbow {
+    100% {
+        background-position-x: 200%;
+    }
+}
+
 .banner__media.media,
 .banner__content {
     height: 100vh;
@@ -29,17 +35,16 @@ header nav .header__active-menu-item {
     text-decoration: none;
 }
 
-@keyframes rainbow {
-    100% {
-        background-position-x: 200%;
-    }
-}
-
 header nav a {
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
-    animation: rainbow 2s linear infinite;
+    animation: rainbow 4s linear infinite;
     border-radius: 30px;
     height: 30px;
+    width: 180px;
+}
+span.header__active-menu-item {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__heading img {
