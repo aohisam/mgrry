@@ -224,6 +224,23 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     width: 180px;
 }
 
+.shisha_featured_collection .card__inner {
+    width: 43%;
+    height: auto;
+    margin-left: 28%;
+    background-color: #1a1a1a;
+}
+
+.shisha_featured_collection .card__information {
+    text-align: center;
+}
+
+.shisha_featured_collection .card-information {
+    text-align: center;
+}
+
+.shisha_featured_collection .card__inner img {}
+
 /***************************************/
 
 @media screen and (min-width: 750px) {
