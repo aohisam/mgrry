@@ -15,7 +15,7 @@ header.header {
     position: relative;
 }
 
-.header-wrapper .header__heading {
+.header__heading {
     position: absolute;
     width: 100%;
     top: 295px;
@@ -25,7 +25,7 @@ header .header__inline-menu {
     display: block;
 }
 
-.header-wrapper .header__heading img {
+.header__heading img {
     width: 60%;
     height: auto;
     max-width: none;
@@ -38,11 +38,16 @@ header .header__inline-menu {
         margin-right: auto;
     }
 
-    .header-wrapper .header__heading {
-        text-align: center;
+    header.header {
+        width: 750px;
     }
 
-    .header-wrapper .header__heading img {
+    .header__heading {
+        text-align: center;
+        width: 750px;
+    }
+
+    .header__heading img {
         width: 40%;
     }
 }
