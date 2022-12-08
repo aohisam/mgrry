@@ -534,6 +534,33 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "92715a00-ef0d-4094-9e89-500f021ceb00": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FLAVOR",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "93fbfa33-0d9f-4556-968b-93c4973b7619": {
       "type": "slideshow",
       "blocks": {
@@ -679,6 +706,7 @@
     "e00aa805-b52b-4c3c-9adf-ad56480c77fb",
     "4bb7a3e4-8039-4993-a0d1-e14ed5947782",
     "d24dde08-1239-4712-981a-1314a5f8fbc3",
+    "92715a00-ef0d-4094-9e89-500f021ceb00",
     "93fbfa33-0d9f-4556-968b-93c4973b7619",
     "video",
     "7231321a-5399-432b-b514-63143d1ff076"
