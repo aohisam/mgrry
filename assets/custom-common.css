@@ -215,6 +215,15 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 .shisha_featured_collection .quick-add.no-js-hidden {
     display: none;
 }
+
+.shisha_featured_collection .center a {
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: rainbow 4s linear infinite;
+    border-radius: 30px;
+    height: 30px;
+    width: 180px;
+}
+
 /***************************************/
 
 @media screen and (min-width: 750px) {
