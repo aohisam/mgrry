@@ -212,8 +212,8 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     margin-left: 8%;
 }
 
-.shisha_featured_collection .quick-add.no-js-hidden {
-    display: none;
+.shisha_featured_collection .quick-add__submit {
+    color: #fff;
 }
 
 .shisha_featured_collection .center a {
@@ -240,6 +240,10 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 }
 
 .shisha_featured_collection .card__inner img {}
+
+.shisha_featured_collection .card__badge.bottom.left {
+    display: none;
+}
 
 /***************************************/
 
