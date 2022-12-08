@@ -37,6 +37,7 @@
         "button"
       ],
       "settings": {
+        "img_banner_name": "abcd",
         "image": "shopify:\/\/shop_images\/header-img.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -118,6 +119,7 @@
         "template--17138762744129__baad6f29-91fa-4792-aaac-fe33b2dd494d-1670487151149d58f8-2"
       ],
       "settings": {
+        "img_banner_name": "",
         "image": "shopify:\/\/shop_images\/shisha-img.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
