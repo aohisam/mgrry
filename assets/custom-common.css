@@ -182,7 +182,18 @@ span.header__active-menu-item {
 
 
 /**shisha-slideshow sections**/
-slideshow-component.shisha_slideshow {}
+slideshow-component.shisha_slideshow img {
+    position: static !important;
+}
+
+slideshow-component.shisha_slideshow .slideshow__text-wrapper {
+    display: none;
+}
+
+slideshow-component.shisha_slideshow .slideshow__controls {
+    display: none;
+}
+
 /*************************/
 
 @media screen and (min-width: 750px) {
