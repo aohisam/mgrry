@@ -4,6 +4,25 @@
     }
 }
 
+@keyframes pathmove {
+    0% {
+        height: 0;
+        top: 0;
+        opacity: 0;
+    }
+
+    30% {
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 0;
+        top: 50px;
+        opacity: 0;
+    }
+}
+
 .banner__media.media,
 .banner__content {
     height: 100vh;
@@ -42,6 +61,7 @@ header nav a {
     height: 30px;
     width: 180px;
 }
+
 span.header__active-menu-item {
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +71,42 @@ span.header__active-menu-item {
     width: 60%;
     height: auto;
     max-width: none;
+}
+
+h2.banner__heading.h2 {
+    position: absolute;
+    right: 40px;
+    bottom: 3%;
+    height: 50px;
+    top: 300px;
+}
+
+h2.banner__heading.h2 span {
+    transform: rotate(-90deg);
+    left: -23px;
+    top: -31px;
+    position: absolute;
+    word-break: normal;
+    left: -25px;
+    top: -42px;
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    /* 背景画像を文字でマスクする */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* 文字色を透明にできればよく color: transparent でも color: rgba(0, 0, 0, 0) でも可 */
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 4s linear infinite;
+}
+
+.banner__heading.h2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 30px;
+    background: linear-gradient(to bottom, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: pathmove 1.4s ease-in-out infinite;
 }
 
 @media screen and (min-width: 750px) {
@@ -71,5 +127,15 @@ span.header__active-menu-item {
 
     .header__heading img {
         width: 40%;
+    }
+
+    h2.banner__heading.h2 {
+        right: -90px;
+        top: 0px;
+    }
+
+    h2.banner__heading.h2 span {
+        left: -30px;
+        top: -51px;
     }
 }
