@@ -429,10 +429,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow-1.png",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -471,7 +471,7 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
