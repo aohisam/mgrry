@@ -73,6 +73,7 @@
         "text"
       ],
       "settings": {
+        "rich_text_name": "rich_text",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
@@ -221,6 +222,7 @@
         "template--17138762744129__3b9f9042-54de-4865-a0eb-5736e209adb7-16704955156cae5e4f-2"
       ],
       "settings": {
+        "rich_text_name": "shisha_detail_text",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
@@ -317,6 +319,7 @@
         "template--17138762744129__5c704c56-e947-4f19-a97b-053db3d802bf-16704955156cae5e4f-2"
       ],
       "settings": {
+        "rich_text_name": "rich_text",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
@@ -413,6 +416,7 @@
         "template--17138762744129__4bb7a3e4-8039-4993-a0d1-e14ed5947782-16704955156cae5e4f-2"
       ],
       "settings": {
+        "rich_text_name": "rich_text",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
