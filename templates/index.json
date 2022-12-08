@@ -460,11 +460,68 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "d8aa2b07-fbb7-45dc-8c8f-e5ed4e1e8595": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow-1.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a4cb5b74-1523-4dd8-98f0-e0e2e85364cb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow-2.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "94023851-93c2-45f3-977c-030453e9002e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow-1.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--17138762744129__d24dde08-1239-4712-981a-1314a5f8fbc3-16704967755a807681-0",
-        "template--17138762744129__d24dde08-1239-4712-981a-1314a5f8fbc3-16704967755a807681-1"
+        "template--17138762744129__d24dde08-1239-4712-981a-1314a5f8fbc3-16704967755a807681-1",
+        "d8aa2b07-fbb7-45dc-8c8f-e5ed4e1e8595",
+        "a4cb5b74-1523-4dd8-98f0-e0e2e85364cb",
+        "94023851-93c2-45f3-977c-030453e9002e"
       ],
       "settings": {
         "slideshow_name": "shisha_slideshow",
@@ -497,6 +554,118 @@
         "feed_width": 100,
         "html_area": ""
       }
+    },
+    "93fbfa33-0d9f-4556-968b-93c4973b7619": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17138762744129__93fbfa33-0d9f-4556-968b-93c4973b7619-1670497678ebfb9e3e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shisha-slideshow-3.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17138762744129__93fbfa33-0d9f-4556-968b-93c4973b7619-1670497678ebfb9e3e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shisha-slideshow-4.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e392e64d-b117-4664-a88c-3d458f1359fd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shisha-slideshow-3.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "6f7374a9-5125-4e3b-9b67-9e7cce39ef0b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shisha-slideshow-4.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "901cce38-0653-4667-aeb1-0a966be9396c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shisha-slideshow-3.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17138762744129__93fbfa33-0d9f-4556-968b-93c4973b7619-1670497678ebfb9e3e-0",
+        "template--17138762744129__93fbfa33-0d9f-4556-968b-93c4973b7619-1670497678ebfb9e3e-1",
+        "e392e64d-b117-4664-a88c-3d458f1359fd",
+        "6f7374a9-5125-4e3b-9b67-9e7cce39ef0b",
+        "901cce38-0653-4667-aeb1-0a966be9396c"
+      ],
+      "settings": {
+        "slideshow_name": "shisha_slideshow",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -511,6 +680,7 @@
     "4bb7a3e4-8039-4993-a0d1-e14ed5947782",
     "d24dde08-1239-4712-981a-1314a5f8fbc3",
     "video",
-    "7231321a-5399-432b-b514-63143d1ff076"
+    "7231321a-5399-432b-b514-63143d1ff076",
+    "93fbfa33-0d9f-4556-968b-93c4973b7619"
   ]
 }
