@@ -148,6 +148,28 @@ span.header__active-menu-item {
     position: absolute;
 }
 
+/**********************/
+
+
+/**shisha-detail sections**/
+.shisha-detail .banner__media.media {
+    width: 30%;
+    height: 10rem !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    background-color: #1a1a1a;
+}
+
+.shisha-detail .banner__media img {
+    width: 80% !important;
+    height: auto !important;
+    position: absolute;
+}
+
+/**************************/
 
 @media screen and (min-width: 750px) {
     body.gradient {
