@@ -114,6 +114,11 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
+
+            <h5 class="card_product_tags">
+              {{ card_product.tags }}
+            </h5>
+
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
@@ -151,6 +156,11 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+
+          <h5 class="card_product_tags">
+            {{ card_product.tags }}
+          </h5>
+
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>

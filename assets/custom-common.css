@@ -250,6 +250,16 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     display: none;
 }
 
+.shisha_featured_collection h3.card__heading {
+    font-size: 1.8rem;
+}
+
+.shisha_featured_collection h5.card_product_tags {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 /***************************************/
 
 @media screen and (min-width: 750px) {
