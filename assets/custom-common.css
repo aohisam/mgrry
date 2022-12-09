@@ -262,6 +262,13 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 
 /***************************************/
 
+/***shisha-video section***/
+.shisha_video_class .title-wrapper h2 {
+    text-align: center;
+}
+
+/*************************/
+
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
