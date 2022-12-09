@@ -691,7 +691,7 @@
     "7231321a-5399-432b-b514-63143d1ff076": {
       "type": "instafeed",
       "settings": {
-        "heading_size": 20,
+        "heading_size": 26,
         "feed_width": 100,
         "html_area": ""
       }
