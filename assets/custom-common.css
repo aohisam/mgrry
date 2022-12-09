@@ -112,6 +112,15 @@ span.header__active-menu-item {
     padding-top: 0 !important
 }
 
+.shisha_detail_text h2.rich-text__heading.rte.h1 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.rich-text__text {
+    font-size: 1.6rem;
+}
+
 .rich-text__text p a {
     pointer-events: none;
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
