@@ -307,4 +307,129 @@ slideshow-component.shisha_slideshow .slideshow__controls {
         left: -30px;
         top: -51px;
     }
+
+    .rich-text__wrapper {
+        margin-top: 50px;
+    }
+
+    .shisha-img .banner__media.media {
+        top: 0;
+    }
+
+    .banner--medium:not(.banner--adapt).shisha-detail {
+        height: 34rem;
+        min-height: 0;
+    }
+
+    .banner--medium:not(.banner--adapt).shisha-img {
+        height: 40rem;
+        min-height: 0;
+    }
+
+    .shisha-detail .banner__media.media {
+        top: 0;
+    }
+
+    .shisha_detail_text {
+        margin-top: -208px;
+        margin-bottom: 100px;
+    }
+
+    .shisha_slideshow {
+        margin-bottom: 100px;
+    }
+
+    .shisha_featured_collection {
+        margin-bottom: 150px;
+    }
+
+    .shisha_featured_collection .quick-add__submit span {
+        font-size: 22px;
+    }
+
+    .shisha_featured_collection .center a {
+        font-size: 28px;
+        width: 230px;
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .shisha-detail .banner__media.media {
+        height: 12rem !important;
+    }
+
+    .shisha-img .banner__media.media {
+        height: 25rem !important;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .shisha-detail .banner__media.media {
+        height: 15rem !important;
+    }
+
+    .shisha-img .banner__media.media {
+        height: 30rem !important;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .shisha-img .banner__media.media {
+        height: 35rem !important;
+    }
+}
+
+
+
+@media screen and (min-width: 620px) {
+
+    h1,
+    .h1 {
+        font-size: 40px;
+    }
+
+    header nav a {
+        width: 235px;
+    }
+
+    header nav .header__active-menu-item {
+        font-size: 20px;
+    }
+
+    #insta-feed h2 {
+        font-size: 40px !important;
+    }
+
+    .rich-text__text {
+        font-size: 24px;
+    }
+
+    .shisha_detail_text h2.rich-text__heading.rte.h1 {
+        font-size: 30px;
+    }
+
+    .shisha-detail .banner__media.media {
+        height: 17rem !important;
+    }
+
+    .shisha-img {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #first_section h2.banner__heading.h2 span {
+        font-size: 20px;
+    }
+
+    .shisha-detail .banner__media.media {
+        height: 20rem !important;
+    }
+
+    .shisha-img .banner__media.media {
+        height: 40rem !important;
+    }
+
 }
