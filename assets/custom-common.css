@@ -419,6 +419,12 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .rich-text__text {
+        font-size: 1.4rem;
+    }
+}
+
 @media screen and (min-width: 700px) {
     #first_section h2.banner__heading.h2 span {
         font-size: 20px;
