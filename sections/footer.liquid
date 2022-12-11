@@ -391,13 +391,11 @@
 
 
   const textbox_element = document.getElementById('insta-feed');
-  console.log(textbox_element);
   const new_element = document.createElement('a');
-  new_element.textContent = '追加テキスト';
-
-// 指定した要素の中の末尾に挿入
-  textbox_element.appendChild(new_element);
-  console.log(textbox_element);
+  new_element.id = "insta_more";
+  new_element.textContent = 'MORE';
+  textbox_element.parentNode.insertBefore(new_element, textbox_element.nextElementSibling);
+  textbox_element.parentNode.setAttribute("id", "insta_parent");
 </script>
 
 

@@ -317,23 +317,33 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 /*************************/
 
 /***shisha-insta section***/
-#insta-feed::after {
+#insta_parent {
+    position: relative;
+}
+
+#insta_more {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     content: "MORE";
     color: #fff;
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
     border-radius: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 /**************************/
 
 /***footer***/
 footer.footer {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 footer a.list-menu__item--active {
@@ -424,10 +434,12 @@ footer a.list-menu__item--active {
         margin-top: 50px !important;
     }
 
-    #insta-feed::after {
+    #insta_more {
         padding-left: 70px;
         padding-right: 70px;
         font-size: 28px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
