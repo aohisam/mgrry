@@ -390,6 +390,7 @@
   mainFirstElementChild.setAttribute("id", "first_section");
 
 
+/******インスタセクションへMORE追加******/
   const textbox_element = document.getElementById('insta-feed');
   const new_element = document.createElement('a');
   new_element.id = "insta_more";
@@ -400,10 +401,6 @@
 
 /*****スクロール高さ取得******/
 
-
-
-/*************************/
-
   const headerItems = document.getElementsByClassName("header--has-menu");
   const headerItem = headerItems[0];
 
@@ -411,7 +408,6 @@
   const headerTargetItem = headerTargetItems[0];
   const headerTargetItemRect = headerTargetItem.getBoundingClientRect();
   const headerTargetItemX = headerTargetItemRect.top;
-  console.log(headerTargetItemX);
 
   positionTop = 0;
   documentElement = document.documentElement;
