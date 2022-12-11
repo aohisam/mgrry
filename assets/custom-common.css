@@ -215,7 +215,11 @@ img.header__heading-logo {
     position: absolute;
 }
 
-#rainbow.shisha-detail .banner__media {
+.rainbow.shisha-detail {
+    overflow: hidden;
+}
+
+.rainbow.shisha-detail .banner__media {
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
     mask-repeat: no-repeat;
@@ -223,9 +227,22 @@ img.header__heading-logo {
     width: 100vw;
     height: 175px;
     margin-left: 1.5rem;
+    -webkit-mask-size: 25vw;
+    mask-size: 25vw;
+    margin-left: 23vw;
 }
 
-#rainbow.shisha-detail .banner__media img {
+@media screen and (min-width: 749px) {
+    .rainbow.shisha-detail .banner__media {
+        -webkit-mask-size: 100%;
+        mask-size: 100%;
+        width: 180px;
+        margin-left: -13px;
+    }
+}
+
+
+.rainbow.shisha-detail .banner__media img {
     opacity: 0;
 }
 
