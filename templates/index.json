@@ -38,7 +38,7 @@
       ],
       "settings": {
         "img_banner_name": "",
-        "img_rainbow_name": "none",
+        "img_rainbow_name": "",
         "image": "shopify:\/\/shop_images\/header-img.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
