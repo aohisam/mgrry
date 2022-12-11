@@ -111,9 +111,11 @@ span.header__active-menu-item {
 a.header__heading-link.link.link--text.focus-inset {
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
-    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
+    width: 100vw;
+    height: 175px;
 }
 
 img.header__heading-logo {

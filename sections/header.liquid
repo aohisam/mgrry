@@ -629,13 +629,23 @@
     {%- endif -%}
   {%- endif -%}
 
-  
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 {%- endif -%}
 
+
+{% if section.settings.logo_animation %}
+<script>
+  const logoImgWrappers = document.getElementsByClassName("header__heading-link");
+  const logoImgWrapper = logoImgWrappers[0];
+  const logoImg = logoImgWrapper.firstElementChild;
+
+  const logoImgSrc = logoImg.getAttribute("src");
+  logoImgWrapper.style.setProperty('-webkit-mask-image', `url(${logoImgSrc})`);
+</script>
+{% endif %}
 
 <script type="application/ld+json">
   {
@@ -683,6 +693,22 @@
   "name": "t:sections.header.name",
   "class": "section-header",
   "settings": [
+    {
+      "type": "select",
+      "id": "logo_animation",
+      "options": [
+       {
+         "value": "有効",
+         "label": "ロゴアニメーションの有効"
+       },
+       {
+         "value": "無効",
+         "label": "ロゴアニメーションの無効"
+       }
+      ],
+      "default": "無効",
+      "label": "ロゴアニメーション"
+    },
     {
       "type": "select",
       "id": "color_scheme",
