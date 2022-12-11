@@ -107,15 +107,35 @@ span.header__active-menu-item {
 }
 
 
+h1.header__heading {
+    overflow: hidden;
+}
 
 a.header__heading-link.link.link--text.focus-inset {
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
-
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     width: 100vw;
     height: 175px;
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 749px) {
+    a.header__heading-link.link.link--text.focus-inset {
+        /* margin-left: 22vw; */
+        -webkit-mask-size: 50vw;
+        mask-size: 50vw;
+        margin-left: 26vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    a.header__heading-link.link.link--text.focus-inset {
+        -webkit-mask-size: 67vw;
+        mask-size: 67vw;
+        margin-left: 17vw;
+    }
 }
 
 img.header__heading-logo {
@@ -246,11 +266,14 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 }
 
 .shisha_featured_collection .center a {
+    display: inline;
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
     border-radius: 30px;
-    height: 30px;
-    width: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .shisha_featured_collection .card__inner {
@@ -293,6 +316,32 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 
 /*************************/
 
+/***shisha-insta section***/
+#insta-feed::after {
+    content: "MORE";
+    color: #fff;
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: rainbow 4s linear infinite;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/**************************/
+
+/***footer***/
+footer.footer {
+    margin-top: 150px;
+}
+
+footer a.list-menu__item--active {
+    text-decoration: none;
+}
+
+/***********/
+
 @media screen and (min-width: 750px) {
     body.gradient {
         width: 750px !important;
@@ -316,6 +365,12 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     #first_section h2.banner__heading.h2 {
         right: -90px;
         top: 0px;
+    }
+
+
+    a.header__heading-link.link.link--text.focus-inset {
+        width: 750px;
+        margin-left: 20.5rem;
     }
 
     #first_section h2.banner__heading.h2 span {
@@ -363,9 +418,16 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     }
 
     .shisha_featured_collection .center a {
+        padding-left: 70px;
+        padding-right: 70px;
         font-size: 28px;
-        width: 230px;
         margin-top: 50px !important;
+    }
+
+    #insta-feed::after {
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 28px;
     }
 }
 
