@@ -396,6 +396,33 @@
   new_element.textContent = 'MORE';
   textbox_element.parentNode.insertBefore(new_element, textbox_element.nextElementSibling);
   textbox_element.parentNode.setAttribute("id", "insta_parent");
+
+
+/*****スクロール高さ取得******/
+
+
+
+/*************************/
+
+  const headerItems = document.getElementsByClassName("header--has-menu");
+  const headerItem = headerItems[0];
+
+  const headerTargetItems = document.getElementsByClassName("header__heading");
+  const headerTargetItem = headerTargetItems[0];
+  const headerTargetItemRect = headerTargetItem.getBoundingClientRect();
+  const headerTargetItemX = headerTargetItemRect.top;
+  console.log(headerTargetItemX);
+
+  positionTop = 0;
+  documentElement = document.documentElement;
+  window.onscroll = function() {
+    positionTop = documentElement.scrollTop;
+    if (headerTargetItemX + 150 < positionTop) {
+      headerItem.style.opacity = 1
+    } else {
+      headerItem.style.opacity = 0
+    }
+  }
 </script>
 
 
