@@ -272,7 +272,7 @@
       ],
       "settings": {
         "img_banner_name": "shisha-detail",
-        "img_rainbow_name": "rainbow",
+        "img_rainbow_name": "none",
         "image": "shopify:\/\/shop_images\/shiha-detail-2.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
