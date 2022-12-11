@@ -677,6 +677,7 @@
   </script>
 {%- endif -%}
 
+
 {% schema %}
 {
   "name": "t:sections.header.name",
@@ -709,6 +710,11 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.settings.logo.label"
     },
     {
       "type": "range",
