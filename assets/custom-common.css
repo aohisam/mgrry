@@ -39,7 +39,7 @@ header.header {
 .header__heading {
     position: absolute;
     width: 100%;
-    top: 295px;
+    top: 225px;
 }
 
 header .header__inline-menu {
@@ -372,6 +372,7 @@ footer svg {
     .header__heading {
         text-align: center;
         width: 750px;
+        top: 295px;
     }
 
     .header__heading img {
