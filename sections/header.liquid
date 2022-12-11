@@ -636,7 +636,7 @@
 {%- endif -%}
 
 
-{% if section.settings.logo_animation.value == "有効" %}
+{%- comment -%} ロゴアニメーション {%- endcomment -%}
 <script>
   const logoImgWrappers = document.getElementsByClassName("header__heading-link");
   const logoImgWrapper = logoImgWrappers[0];
@@ -645,7 +645,8 @@
   const logoImgSrc = logoImg.getAttribute("src");
   logoImgWrapper.style.setProperty('-webkit-mask-image', `url(${logoImgSrc})`);
 </script>
-{% endif %}
+
+
 
 <script type="application/ld+json">
   {
