@@ -215,6 +215,20 @@ img.header__heading-logo {
     position: absolute;
 }
 
+#rainbow.shisha-detail .banner__media {
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: rainbow 4s linear infinite;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    width: 100vw;
+    height: 175px;
+    margin-left: 1.5rem;
+}
+
+#rainbow.shisha-detail .banner__media img {
+    opacity: 0;
+}
+
 /**************************/
 
 

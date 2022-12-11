@@ -418,6 +418,14 @@
       headerItem.style.opacity = 0
     }
   }
+
+
+  const bannerImgWrappers = document.getElementsByClassName("banner__media");
+  const bannerImgWrapper = bannerImgWrappers[0];
+  const bannerImg = bannerImgWrapper.firstElementChild;
+
+  const bannerImgSrc = bannerImg.getAttribute("src");
+  bannerImgWrapper.style.setProperty('-webkit-mask-image', `url(${bannerImgSrc})`);
 </script>
 
 
