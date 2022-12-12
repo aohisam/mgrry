@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'custom-common.css' | asset_url }}" meda="print" onload="this.media='all'">
+{%- if request.page_type == 'product' -%}
+  <link rel="stylesheet" href="{{ 'custom-products.css' | asset_url }}" meda="print" onload="this.media='all'">
+{%- endif -%}
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">

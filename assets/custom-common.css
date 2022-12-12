@@ -36,11 +36,18 @@
 }
 
 header.header {
+    opacity: 1;
+}
+
+.top-page-header header.header {
+    opacity: 0;
+}
+
+header.header {
     position: fixed;
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    opacity: 0;
     transition: 0.5s;
 }
 
@@ -129,6 +136,11 @@ a.header__heading-link.link.link--text.focus-inset {
     width: 100vw;
     height: 175px;
     margin-left: 1.5rem;
+    margin-top: 85px;
+}
+
+.top-page-header a.header__heading-link.link.link--text.focus-inset {
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 749px) {
