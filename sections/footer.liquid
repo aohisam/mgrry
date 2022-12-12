@@ -406,11 +406,10 @@
   const headerTargetItems = document.getElementsByClassName("header__heading");
   const headerTargetItem = headerTargetItems[0];
   const headerTargetItemRect = headerTargetItem.getBoundingClientRect();
-  const headerTargetItemX = headerTargetItemRect.top;
-  positionTop = 0;
-  documentElement = document.documentElement;
+  const headerTargetItemX = headerTargetItemRect.top + window.pageYOffset;
+  var positionTop = window.scrollY;
   window.onscroll = function() {
-    positionTop = documentElement.scrollTop;
+    positionTop = window.scrollY;
     if (headerTargetItemX + 150 < positionTop) {
       headerItem.style.opacity = 1
     } else {
