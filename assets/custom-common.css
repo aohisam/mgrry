@@ -320,6 +320,16 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     width: 100%;
 }
 
+.shisha_featured_collection .card.card--media {
+    width: 115%;
+}
+
+@media screen and (min-width: 500px) {
+    .shisha_featured_collection .card.card--media {
+        width: 85%;
+    }
+}
+
 .product-form__buttons span {
     width: 70%;
     height: 40px;
@@ -387,6 +397,10 @@ slideshow-component.shisha_slideshow .slideshow__controls {
 /***shisha-video section***/
 .shisha_video_class .title-wrapper h2 {
     text-align: center;
+}
+
+.shisha_video_class {
+    padding: 0;
 }
 
 /*************************/
@@ -504,7 +518,7 @@ footer svg {
     }
 
     .shisha_featured_collection ul {
-        height: 690px;
+        height: 590px;
     }
 
     .shisha_featured_collection .quick-add__submit span {
