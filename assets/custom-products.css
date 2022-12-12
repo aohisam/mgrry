@@ -13,3 +13,38 @@ media-gallery ul.slider {
     margin-left: auto;
     margin-right: auto;
 }
+
+.product-form__input.product-form__quantity {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-form .product-form__buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+product-recommendations ul.grid {
+    gap: 20px;
+}
+
+product-recommendations li.grid__item {
+    width: 20% !important;
+}
+
+@media screen and (max-width: 749px) {
+    .product .product__media-item {
+        width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4) !important;
+        max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    product-recommendations ul.grid {
+        gap: 50px;
+    }
+
+    product-recommendations li.grid__item {
+        width: 10% !important;
+    }
+}
