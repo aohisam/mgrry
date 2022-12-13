@@ -644,6 +644,29 @@ footer svg {
     }
 }
 
+
+@media screen and (max-width: 380px) {
+    .top-page-header a.header__heading-link.link.link--text.focus-inset {
+        margin-top: -20px;
+    }
+
+    #first_section h2.banner__heading.h2 {
+        top: 245px;
+    }
+
+    footer svg {
+        width: 46px;
+    }
+
+    .rich-text__text {
+        font-size: 1.15rem;
+    }
+
+    .rich-text__text.rte {
+        line-height: 20px;
+    }
+}
+
 @media screen and (min-width: 700px) {
     #first_section h2.banner__heading.h2 span {
         font-size: 20px;
