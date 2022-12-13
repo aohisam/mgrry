@@ -101,7 +101,7 @@
 }
 
 .footer-block:only-child:last-child {
-  text-align: center;
+  text-align: left;
   max-width: 76rem;
   margin: 0 auto;
 }
