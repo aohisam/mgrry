@@ -23,6 +23,23 @@
     }
 }
 
+.gradient .grid--2-col-tablet-down .grid__item {
+    max-width: 12%;
+}
+
+@media screen and (max-width: 519px) {
+    .gradient .grid--2-col-tablet-down .grid__item {
+        max-width: 17%;
+    }
+    product-recommendations ul.grid {
+        gap: 32px !important;
+    }
+}
+
+.top-page-main .grid--2-col-tablet-down .grid__item {
+    max-width: none;
+}
+
 :root {
     --spacing-sections-mobile: 50px;
 }
@@ -33,6 +50,10 @@
 
 .gradient sticky-header.top-page-header {
     overflow: visible;
+}
+
+.header-wrapper--border-bottom {
+    border-bottom: none !important;
 }
 
 header.header {
