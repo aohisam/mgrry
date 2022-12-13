@@ -29,8 +29,9 @@
 
 @media screen and (max-width: 519px) {
     .gradient .grid--2-col-tablet-down .grid__item {
-        max-width: 17%;
+        max-width: 20%;
     }
+
     product-recommendations ul.grid {
         gap: 32px !important;
     }
@@ -357,7 +358,7 @@ slideshow-component.shisha_slideshow .slideshow__controls {
     padding-top: 12px;
 }
 
-.shisha_featured_collection .center a {
+.collection__view-all.center a {
     display: inline;
     background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
     animation: rainbow 4s linear infinite;
@@ -578,7 +579,7 @@ footer svg {
 
 @media screen and (max-width: 430px) {
     .shisha_featured_collection slider-component ul {
-        height: 470px;
+        height: 500px;
     }
 }
 
@@ -656,4 +657,9 @@ footer svg {
         height: 40rem !important;
     }
 
+}
+
+.product-recommendations .grid {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
 }
