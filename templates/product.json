@@ -31,11 +31,6 @@
           "settings": {
           }
         },
-        "7482f9b4-8376-4f90-b151-0f2431c1689e": {
-          "type": "good_rating",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -60,7 +55,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "7482f9b4-8376-4f90-b151-0f2431c1689e",
         "buy_buttons",
         "description",
         "share"
