@@ -37,11 +37,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "b29c3cd3-3ae3-4bb2-94ec-439c3b9e01f0": {
-          "type": "good_rating",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -61,7 +56,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "b29c3cd3-3ae3-4bb2-94ec-439c3b9e01f0",
         "description",
         "share"
       ],
