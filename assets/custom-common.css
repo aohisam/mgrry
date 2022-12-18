@@ -638,6 +638,10 @@ footer svg {
     }
 }
 
+.good-icon {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 420px) {
     .rich-text__text {
         font-size: 1.4rem;
