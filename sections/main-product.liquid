@@ -706,6 +706,26 @@
                 </p>
               {%- endif -%}
 
+
+
+
+              {%- when 'good_rating' -%}
+                {%- if product.metafields.reviews.good_rating.value != blank -%}
+                  <div
+                    class="good_rating"
+                    role="img"
+                  >
+                      <div class="good_rating_wrapper">
+                          <svg></svg>
+                          <span class="good_counts" id="good_counts_{{ product.id }}">{{ product.id }}</span>
+                      </div>
+                  </div>
+                  </p>
+                {%- endif -%}
+
+
+
+
               {%- when 'complementary' -%}
                 <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
                   {%- if recommendations.performed and recommendations.products_count > 0 -%}
@@ -1534,13 +1554,7 @@
     {
      "type": "good_rating",
      "name": "いいねボタン",
-     "limit": 1,
-     "settings": [
-        {
-          "type": "paragraph",
-          "content": "テスト"
-        }
-      ]
+     "limit": 1
     },
     {
       "type": "complementary",
