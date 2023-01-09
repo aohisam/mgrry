@@ -349,4 +349,13 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
+  <style>
+  :root {
+    --bg-image: url("https://cdn.shopify.com/s/files/1/0005/7760/1599/files/image_1.jpg?v=1631340728");
+}
+html, body{
+    background-image: var(--bg-image);
+    background-size: contain;
+}
+</style>
 </html>
